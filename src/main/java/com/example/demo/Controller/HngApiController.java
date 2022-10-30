@@ -12,7 +12,7 @@ public class HngApiController {
 	@GetMapping("/getDetails")
 	public HngApiEntity hng() {
 		HngApiEntity hng = new HngApiEntity();
-		hng.setSlackUsername("anjolaoluwami20");
+		hng.setSlackUsername("Hassan Aleeyah");
 		hng.setBackend(true);
 		hng.setAge(18);
 		hng.setBio("I'm a java backend developer hoping to learn how to get better at what I do");
